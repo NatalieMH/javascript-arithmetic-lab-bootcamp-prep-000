@@ -7,5 +7,14 @@ function subtract(a,b) {
   return diff;
 }
 function multiply(a,b) {
-  
+  var mult = a*b;
+  return mult;
+}
+function divide(a,b) {
+  var div = a/b;
+  return div;
+}
+function inc(n) {
+  n++;
+  return n;
 }
